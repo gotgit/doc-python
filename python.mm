@@ -1119,6 +1119,21 @@
 	TEXT="re">
 <node ID="Freemind_Link_1280960713" 
 	TEXT="常规表达式"/>
+<node FOLDED="true" ID="Freemind_Link_1420229928" 
+	TEXT="re.compile">
+<node ID="Freemind_Link_268718993" 
+	TEXT="&gt;&gt;&gt; import re&#xa;&gt;&gt;&gt; p = re.compile(&apos;[a-z]+&apos;)&#xa;&gt;&gt;&gt; p&#xa;"/>
+</node>
+<node FOLDED="true" ID="Freemind_Link_1220125134" 
+	TEXT="match">
+<node ID="Freemind_Link_884530055" 
+	TEXT="&gt;&gt;&gt; p.match(&quot;&quot;)&#xa;&gt;&gt;&gt; print p.match(&quot;&quot;)&#xa;None&#xa;&#xa;p = re.compile( ... )&#xa;m = p.match( &apos;string goes here&apos; )&#xa;if m:&#xa;    print &apos;Match found: &apos;, m.group()&#xa;else:&#xa;    print &apos;No match&apos;&#xa;&#xa;&#xa;"/>
+</node>
+<node FOLDED="true" ID="Freemind_Link_456712609" 
+	TEXT="groups">
+<node ID="Freemind_Link_312132460" 
+	TEXT="&gt;&gt;&gt; p = re.compile(&apos;(a(b)c)d&apos;)&#xa;&gt;&gt;&gt; m = p.match(&apos;abcd&apos;)&#xa;&gt;&gt;&gt; m.group(0)&#xa;&apos;abcd&apos;&#xa;&gt;&gt;&gt; m.group(1)&#xa;&apos;abc&apos;&#xa;&gt;&gt;&gt; m.group(2)&#xa;&apos;b&apos;&#xa;&#xa;&gt;&gt;&gt; m.groups()&#xa;(&apos;abc&apos;, &apos;b&apos;)&#xa;"/>
+</node>
 </node>
 </node>
 <node FOLDED="true" ID="Freemind_Link_957233669" POSITION="right" 
